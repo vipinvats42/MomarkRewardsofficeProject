@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+
+    <RelativeLayout
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:background="#F1F1F1"
+        android:layout_width="350dp"
+        android:layout_height="350dp">
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:inputType="phone"
+            android:background="#FFFFFF"
+            android:ems="10"
+            android:hint=" Mobile No."
+            android:id="@+id/editTextmobileno"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="73dp" />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:inputType="number"
+            android:hint=" Activation Code"
+            android:ems="10"
+            android:background="#FFFFFF"
+            android:id="@+id/editText2acticode"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/editTextmobileno"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="Submit"
+            android:textColor="#FFFFFF"
+            android:background="#015289"
+            android:id="@+id/buttonsubmit"
+            android:layout_below="@+id/editText2acticode"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="178dp"/>
+    </RelativeLayout>
+
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textviewfooter"
+        android:text="Powered by Momark Services"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:layout_gravity="bottom"
+        android:layout_alignParentBottom="true"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:text="Momark Rewards"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:background="#ff0000"
+        android:id="@+id/textView2header"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

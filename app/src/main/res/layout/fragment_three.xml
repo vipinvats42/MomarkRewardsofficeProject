@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="350dp"
+        android:layout_height="450dp"
+        android:layout_centerHorizontal="true"
+       android:layout_marginTop="20dp">
+
+
+
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:inputType="phone"
+            android:hint=" Phone Number"
+            android:background="#E6E6E6"
+            android:ems="10"
+            android:id="@+id/editText2phonenumber"
+           android:layout_alignParentTop="true"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true" />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:inputType="number"
+            android:background="#E6E6E6"
+            android:hint=" Amount"
+            android:ems="10"
+            android:id="@+id/editText3amount"
+            android:layout_below="@+id/editText2phonenumber"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp" />
+
+
+
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:inputType="phone"
+            android:hint=" Item 1"
+            android:background="#E6E6E6"
+            android:ems="10"
+            android:id="@+id/editText2item1"
+            android:layout_below="@+id/editText3amount"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true" />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:inputType="phone"
+            android:hint=" Item 2"
+            android:background="#E6E6E6"
+            android:ems="10"
+            android:id="@+id/editText2item2"
+            android:layout_below="@+id/editText2item1"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true" />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:inputType="phone"
+            android:hint=" Item 3"
+            android:background="#E6E6E6"
+            android:ems="10"
+            android:id="@+id/editText2item3"
+            android:layout_below="@+id/editText2item2"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true" />
+
+
+
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:inputType="phone"
+            android:hint=" Item 4"
+            android:background="#E6E6E6"
+            android:ems="10"
+            android:id="@+id/editText2item4"
+            android:layout_below="@+id/editText2item3"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true" />
+
+
+
+
+
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pay with:"
+            android:textSize="15dp"
+            android:id="@+id/textView2paywith"
+           android:layout_below="@+id/editText2item4"
+            android:layout_marginTop="20dp"
+           android:layout_marginLeft="20dp" />
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/imageButtonpayu"
+            android:background="@drawable/payu"
+            android:layout_below="@+id/textView2paywith"
+            android:layout_marginLeft="20dp" />
+
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/imageButtonmovi"
+            android:background="@drawable/mobi"
+            android:layout_below="@+id/textView2paywith"
+           android:layout_marginLeft="80dp" />
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/imageButtonfreecharge"
+            android:background="@drawable/freecharge"
+            android:layout_below="@+id/textView2paywith"
+            android:layout_marginLeft="140dp" />
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/imageButtoncitrus"
+            android:background="@drawable/citrus"
+            android:layout_below="@+id/textView2paywith"
+            android:layout_marginLeft="200dp" />
+
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/imageButtoncash"
+            android:background="@drawable/cash"
+            android:layout_below="@+id/textView2paywith"
+            android:layout_marginLeft="260dp" />
+
+
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>

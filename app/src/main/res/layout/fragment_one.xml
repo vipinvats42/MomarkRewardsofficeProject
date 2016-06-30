@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:inputType="textPersonName"
+        android:text=""
+        android:hint=" Name*"
+        android:background="#E6E6E6"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:inputType="phone"
+        android:ems="10"
+        android:background="#E6E6E6"
+        android:hint=" Mobile No.*"
+        android:id="@+id/editText2mobileno"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/editText"
+        android:layout_alignLeft="@+id/editText"
+        android:layout_alignStart="@+id/editText" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:inputType="textPersonName"
+        android:background="#E6E6E6"
+        android:text=""
+        android:hint=" Location*"
+        android:ems="10"
+        android:id="@+id/editText3location"
+        android:layout_below="@+id/editText2mobileno"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="Gender*"
+        android:textSize="18dp"
+        android:textColor="#000000"
+        android:id="@+id/textViewgender"
+        android:layout_below="@+id/editText3location"
+        android:layout_alignLeft="@+id/editText3location"
+        android:layout_alignStart="@+id/editText3location"
+        android:layout_marginTop="10dp" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Male"
+        android:layout_marginLeft="140dp"
+        android:textSize="15dp"
+        android:id="@+id/radioButtonmale"
+      android:layout_below="@+id/editText3location"
+        android:layout_marginTop="10dp"
+         />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Female"
+        android:textSize="15dp"
+        android:layout_marginLeft="220dp"
+        android:id="@+id/radioButton"
+        android:layout_below="@+id/editText3location"
+        android:layout_marginTop="10dp"
+        />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:inputType="textPersonName"
+        android:text=""
+        android:hint=" Occupation"
+        android:background="#E6E6E6"
+        android:ems="10"
+        android:id="@+id/editText2occupation"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/textViewgender"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Birthdate"
+        android:textSize="18dp"
+        android:textColor="#000000"
+        android:id="@+id/textViewbirthdate"
+        android:layout_below="@+id/editText2occupation"
+        android:layout_alignLeft="@+id/editText2occupation"
+        android:layout_alignStart="@+id/editText2occupation"
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:inputType="date"
+        android:background="#E6E6E6"
+        android:ems="10"
+        android:id="@+id/editText2birthdate"
+        android:layout_below="@+id/textViewbirthdate"
+        android:layout_alignLeft="@+id/textViewbirthdate"
+        android:layout_alignStart="@+id/textViewbirthdate" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Anniversary"
+        android:textSize="18dp"
+        android:textColor="#000000"
+        android:id="@+id/textView"
+        android:layout_below="@+id/editText2occupation"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="200dp"
+        />
+
+    <EditText
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:inputType="date"
+        android:ems="10"
+        android:id="@+id/editText3anniversary"
+        android:background="#E6E6E6"
+        android:layout_below="@+id/textView"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView" />
+
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:text="Submit"
+        android:id="@+id/buttonsubmit"
+        android:textColor="#FFFFFF"
+        android:background="#ff0000"
+        android:layout_below="@+id/editText3anniversary"
+        android:layout_alignRight="@+id/editText3anniversary"
+        android:layout_alignEnd="@+id/editText3anniversary"
+        android:layout_marginTop="20dp"/>
+
+
+</RelativeLayout>
